@@ -55,8 +55,8 @@
  */
 int a2gs_ToolBox_DumpBuffer(void *data, size_t dataLen, unsigned char **bufOut)
 {
-	unsigned char *bufOutWalker;
-	size_t bufOutLen;
+	unsigned char *bufOutWalker = NULL;
+	size_t bufOutLen = 0;
 	unsigned char *bufInWalker;
 	char auxFmt[3];
 	unsigned int newLine, totalLines;
