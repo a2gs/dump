@@ -60,7 +60,7 @@ int a2gs_ToolBox_DumpBuffer(void *data, size_t dataLen, unsigned char **bufOut)
 	unsigned char *bufInWalker = NULL;
 	char auxFmt[3] = {'\0'};
 	unsigned int newLine = 0, totalLines = 0;
-	unsigned char *hexCode, *asciiCode = NULL;
+	unsigned char *hexCode = NULL, *asciiCode = NULL;
 
 	bufInWalker = (unsigned char *)data;
 	totalLines = (int)(dataLen / A2GS_TOOLBOX_DUMPBUFFER_MAX_BYTES_PER_LINE) + 1;
