@@ -32,7 +32,7 @@
 
 
 #if 0 /* EXAMPLE */
-int main(){
+int main(int argc, char *argv[]){
    unsigned char a[30]="0123456789", *x = 0;
    int ret = 0;
 
@@ -42,7 +42,7 @@ int main(){
 
    free(x);
 
-   return (1);
+   return(1);
 }
 #endif
 
