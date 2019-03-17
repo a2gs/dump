@@ -3,32 +3,32 @@
 
 
 /* *** INCLUDES *** */
-	#include <stdio.h>
+#include <stdio.h>
 
 
 /* *** DEFINES *** */
-	#define A2GS_TOOLBOX_DUMP_OK 1
-	#define A2GS_TOOLBOX_DUMP_ERRO 0
+#define A2GS_TOOLBOX_DUMP_OK 1
+#define A2GS_TOOLBOX_DUMP_ERRO 0
 
 
 /* *** DATA TYPES *** */
 
 
 /* *** INTERFACES / PROTOTYPES *** */
-	/* int  a2gs_ToolBox_DumpBuffer(void *data, size_t dataLen, unsigned char **bufOut)
-	 *
-	 * Assemply a buffer (malloc'ed()) witch the dump of buffer data.
-	 * The user must free() the bufOut.
-	 *
-	 * INPUT:
-	 *  data - Data to dump.
-	 *  dataLen - Size os data (number of bytes to dump).
-	 * OUTPUT:
-	 *  bufOut - Address of a pointer that will receive a malloc'ed() memory.
-	 *  A2GS_TOOLBOX_DUMP_ERRO - Erro when dumping.
-	 *  A2GS_TOOLBOX_DUMP_OK - Dump Ok.
-	 */
-	int  a2gs_ToolBox_DumpBuffer(void * , size_t , unsigned char ** );
+/* int  a2gs_ToolBox_DumpBuffer(void *data, size_t dataLen, unsigned char **bufOut)
+ *
+ * Assemply a buffer (malloc'ed()) witch the dump of buffer data.
+ * The user must free() the bufOut.
+ *
+ * INPUT:
+ *  data - Data to dump.
+ *  dataLen - Size os data (number of bytes to dump).
+ * OUTPUT:
+ *  bufOut - Address of a pointer that will receive a malloc'ed() memory.
+ *  A2GS_TOOLBOX_DUMP_ERRO - Erro when dumping.
+ *  A2GS_TOOLBOX_DUMP_OK - Dump Ok.
+ */
+int  a2gs_ToolBox_DumpBuffer(void * , size_t , unsigned char ** );
 
 
 #if 0 /* EXAMPLE */
