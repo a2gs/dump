@@ -28,7 +28,7 @@
  *  A2GS_TOOLBOX_DUMP_ERRO - Erro when dumping.
  *  A2GS_TOOLBOX_DUMP_OK - Dump Ok.
  */
-int  a2gs_ToolBox_DumpBuffer(void * , size_t , unsigned char ** );
+int  a2gs_ToolBox_DumpBuffer(void *data, size_t dataLen, unsigned char **bufOut);
 
 
 #if 0 /* EXAMPLE */
