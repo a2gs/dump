@@ -18,17 +18,17 @@
 
 
 /* *** INCLUDES *** */
-	#include <stdio.h>
-	#include <string.h>
-	#include <ctype.h>
-	#include <stdlib.h>
-	#include <dump.h>
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
+#include <dump.h>
 
 
 /* *** DEFINES AND LOCAL DATA TYPE DEFINATION *** */
-	#define A2GS_TOOLBOX_DUMPBUFFER_MAX_BYTES_PER_LINE 16
-	#define A2GS_TOOLBOX_DUMPBUFFER_ONE_LINE_SIZE sizeof("xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx-aaaaaaaaaaaaaaaaN")
-	#define A2GS_TOOLBOX_DUMPBUFFER_HEX_LINE_SIZE sizeof("xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx")
+#define A2GS_TOOLBOX_DUMPBUFFER_MAX_BYTES_PER_LINE 16
+#define A2GS_TOOLBOX_DUMPBUFFER_ONE_LINE_SIZE sizeof("xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx-aaaaaaaaaaaaaaaaN")
+#define A2GS_TOOLBOX_DUMPBUFFER_HEX_LINE_SIZE sizeof("xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx")
 
 
 /* *** LOCAL PROTOTYPES *** */
