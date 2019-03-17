@@ -32,7 +32,8 @@ int  a2gs_ToolBox_DumpBuffer(void *data, size_t dataLen, unsigned char **bufOut)
 
 
 #if 0 /* EXAMPLE */
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[])
+{
    unsigned char a[30]="0123456789", *x = 0;
    int ret = 0;
 
@@ -42,7 +43,7 @@ int main(int argc, char *argv[]){
 
    free(x);
 
-   return(1);
+   return(0);
 }
 #endif
 
